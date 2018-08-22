@@ -17,7 +17,11 @@ public class SortTest {
         //插入排序
 //        sort = new InsertionSort();
         //希尔排序
-        sort = new ShellSort();
+//        sort = new ShellSort();
+        //归并排序
+//        sort = new MergeSort();
+        //快速排序
+        sort = new QuickSort();
 
         try {
             result = sort.sort(array);

@@ -14,6 +14,7 @@ public class ShellSort implements Sort<Integer>{
      * 平均时间复杂度 ---- 根据步长序列的不同而不同。
      * 所需辅助空间 ------ O(1)
      * 稳定性 ------------ 稳定
+     * 参考---http://www.cnblogs.com/eniac12/p/5329396.html
      * @param array 待排序的入参数组
      * @return
      */
