@@ -12,7 +12,7 @@ public class SortUtil {
      * @param i
      * @param j
      */
-    public static void swap(Integer[] array, int i, int j) throws Exception{
+    public static void swap(Integer[] array, int i, int j){
         if (array == null){
             throw new NullPointerException();
         }

@@ -44,18 +44,11 @@ public class QuickSort implements Sort<Integer>{
         {
             if (sort[i] <= pivot)
             {
-                swap(sort, ++tail, i);
+                SortUtil.swap(sort, ++tail, i);
             }
         }
-        swap(sort, tail + 1, right);
+        SortUtil.swap(sort, tail + 1, right);
         return tail + 1;
-    }
-
-    void swap(Integer[] sort, int i, int j)
-    {
-        int temp = sort[i];
-        sort[i] = sort[j];
-        sort[j] = temp;
     }
 
 }

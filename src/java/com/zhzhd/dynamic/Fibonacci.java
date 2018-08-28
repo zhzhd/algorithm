@@ -41,7 +41,7 @@ public class Fibonacci {
     }
 
     public static void main(String[] args) {
-        int n = 1;
+        int n = 40;
         long recursionStart = System.currentTimeMillis();
         System.out.println(recursion(n));
         long recursionEnd = System.currentTimeMillis();
