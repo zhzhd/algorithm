@@ -14,6 +14,7 @@ public interface Sort<T> {
      * 排序方法
      * @param array 待排序的入参数组
      * @return 返回排序后的数组
+     * @throws Exception
      */
     T[] sort(T[] array) throws Exception;
 }

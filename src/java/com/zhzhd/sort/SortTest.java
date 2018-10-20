@@ -1,4 +1,5 @@
-package com.zhzhd.sort;;
+package com.zhzhd.sort;;import java.util.Arrays;
+
 /**
  *@author zhangzhendong1
  *@date 2018/6/5
@@ -22,21 +23,14 @@ public class SortTest {
 //        sort = new MergeSort();
         //快速排序
         sort = new QuickSort();
-
+        int[] a = null;
+        System.out.println(a.length);
         try {
             result = sort.sort(array);
         } catch (Exception e) {
             e.printStackTrace();
         }
-        if (result != null){
-            for (int i = 0; i < result.length; i++) {
-                if (i == result.length - 1){
-                    System.out.print(result[i]);
-                } else {
-                    System.out.print(result[i] + ",");
-                }
-            }
-        }
+        System.out.println(Arrays.toString(result));
 
     }
 }
