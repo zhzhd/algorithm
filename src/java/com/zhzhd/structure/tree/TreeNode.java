@@ -1,4 +1,4 @@
-package com.zhzhd.structure.tree;;
+package com.zhzhd.structure.tree;
 /**
  *@author zhangzhendong1
  *@date 2018/11/27
