@@ -1,4 +1,4 @@
-package com.zhzhd.dynamic;;
+package com.zhzhd.dynamic;
 /**
  *@author zhangzhendong1
  *@date 2018/8/10
